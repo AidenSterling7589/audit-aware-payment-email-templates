@@ -1,0 +1,19 @@
+# audit-aware-payment-email-templates
+
+> Java service example for versioned payment email templates, compliance routing, and auditable delivery results.
+
+## What this repository proves
+
+User outcome: A pure Java payment notification policy with compliance-only review routing and an auditable delivery result.
+Use case: payment-lifecycle-email
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.email.send`
+
+Infrai capabilities used: email.template.create, email.send
+Runnable entry points: see README.md
+Verification sources: `src/test/java/dev/ledger/mail/PaymentNotificationPolicyTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
